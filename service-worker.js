@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/3.6.3/workbox-sw.js");
 
 importScripts(
-  "/gymexercises/precache-manifest.8075e9d774ab7af5bee1a01eeaae82f4.js"
+  "/gym-exercises/precache-manifest.18316dfbbbe1505a824e75eb64f97993.js"
 );
 
 workbox.clientsClaim();
@@ -28,7 +28,7 @@ self.__precacheManifest = [].concat(self.__precacheManifest || []);
 workbox.precaching.suppressWarnings();
 workbox.precaching.precacheAndRoute(self.__precacheManifest, {});
 
-workbox.routing.registerNavigationRoute("/gymexercises/index.html", {
+workbox.routing.registerNavigationRoute("/gym-exercises/index.html", {
   
   blacklist: [/^\/_/,/\/[^\/]+\.[^\/]+$/],
 });
